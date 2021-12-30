@@ -18,7 +18,7 @@ void setup() {
 
 void loop() {
 
-  Schedule.task(&blink_led, 1);
+  Schedule.task(&blink_led, 1); //(Function, Time_in_minutes) the function will be executed once every Time_in_Minutes in this case every one minutes.
 
 }
  
